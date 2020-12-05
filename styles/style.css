@@ -1,8 +1,24 @@
 #logo {
-    display: block;
-    margin: auto;
-  }
-  
-  #searchbar {
-    text-align: center;
-  }
+  display: block;
+  margin: auto;
+  margin-top: 200px
+}
+
+#searchbar {
+  text-align: center;
+  margin-top: 38px
+}
+
+header{
+  margin-top: 0px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
