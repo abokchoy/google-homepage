@@ -2,31 +2,40 @@
 
 <html lang="en">
     <head>
+        <!--Meta info, fonts, etc; commenting out things that will be included in actual files later-->
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--link rel="stylesheet" href="style.css" media="all"-->
         <title>The Odin Project: Google Homepage</title>
     </head>
+  
     <body>
-      <div>
-          <header>
-           <ul>
-             <li><a href="" alt="About">About</a></li>
-             <li><a href="" alt="store">Store</a></li>
-             <li style="float:right"><a href="" alt="Sign in">Sign in</a></li>
-             <li style="float:right"><a href="" alt="images">Images</a></li>
-             <li style="float:right"><a href="a" alt="Gmail">Gmail</a></li>
-            </ul>
-          </header>
-        
-          <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="">
-            <form action="https://www.google.com" id="searchbar">
-                <input type="text" placeholder="Search Google or type a URL">
-            </form>
-          </main>
-      </div>
-
-        <footer>
-
-        </footer>
-  </body>
+        <div class="flex"> <!--for using flexbox?-->
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="" alt="About">About</a></li>
+                        <li><a href="" alt="store">Store</a></li>
+                        <li style="float:right"><a href="" alt="Sign in">Sign in</a></li>
+                        <li style="float:right"><a href="" alt="images">Images</a></li>
+                        <li style="float:right"><a href="a" alt="Gmail">Gmail</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google logo">
+                
+                <form>
+                    <input type="text" placeholder="             Search Google or type a URL" id="searchbar">
+                    <button type="button" id="voicebutton"></button>
+                    <button type="button" id="searchsymbol"></button>
+                </form>
+                
+                <ul class="mainbuttons">
+                    <li><button class="searchbutton">Google Search</button></li>
+                    <li><button class="searchbutton">I'm Feeling Lucky</button></li>
+                
+            </main>
+        </div> 
+    </body>
 </html>
